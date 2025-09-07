@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+</head>
+
+<!-- Flat BEM refresher:
+- Block = header
+- Elements are always direct parts of the block 
+- How the DOM looks or is nested has nothing to do with BEM naming(DOM nesting ≠ BEM naming)
+- Example: header__logo, header__nav, header__list, header__item, header__link
+- Use modifiers only for variations (e.g., header__item--active)
+-->
+
+<body>
+    <header class="header">
+        <a class="header__logo" href="/" aria-label="Home"><img class="header__img" src="./images/logo-placeholder.png"
+                alt="Site Logo"></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">header link one</a></li>
+                <li class="header__item"><a class="header__link" href="#">header link two</a></li>
+                <li class="header__item"><a class="header__link" href="#">header link three</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
