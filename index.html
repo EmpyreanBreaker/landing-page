@@ -17,27 +17,31 @@
 
 <body>
     <header class="header">
-        <a class="header__logo" href="/" aria-label="Home"><img class="header__img" src="./images/logo-placeholder.png"
-                alt="Site Logo"></a>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"><a class="header__link" href="#">header link one</a></li>
-                <li class="header__item"><a class="header__link" href="#">header link two</a></li>
-                <li class="header__item"><a class="header__link" href="#">header link three</a></li>
-            </ul>
-        </nav>
+        <div class="header__container">
+            <a class="header__logo" href="/" aria-label="Home"><img class="header__img"
+                    src="./images/logo-placeholder.png" alt="Site Logo"></a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="#">header link one</a></li>
+                    <li class="header__item"><a class="header__link" href="#">header link two</a></li>
+                    <li class="header__item"><a class="header__link" href="#">header link three</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="hero">
-        <div class="hero__introduction">
-            <h1 class="hero__header">This website is awesome</h1>
-            <p class="hero__subheading">This website has some subtext that goes under the main title. It's a smaller
-                font and the color is a
-                lower contrast.</p>
-            <button class="hero__button">Sign Up</button>
-        </div>
-        <div class="hero__placeholder">
-            <img src="./images/hero-placeholder.png" alt="Hero Placeholder Image">
+        <div class="hero__container">
+            <div class="hero__introduction">
+                <h1 class="hero__main">This website is awesome</h1>
+                <p class="hero__secondary">This website has some subtext that goes under the main title. It's a smaller
+                    font and the color is a
+                    lower contrast.</p>
+                <button class="hero__button">Sign Up</button>
+            </div>
+            <div class="hero__placeholder">
+                <img class="hero__img" src="./images/hero-placeholder.png" alt="Hero Placeholder Image">
+            </div>
         </div>
     </section>
 
