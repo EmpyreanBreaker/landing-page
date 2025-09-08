@@ -165,8 +165,27 @@ ul {
     font-size: 18px;
     color: #6B7280;
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.hero__introduction {
-    width: 400px;
+/** Review Styling */
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote__container {
+    margin: 100px 400px 100px 400px;
+}
+
+.quote__display {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote__writer {
+    text-align: end;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: black;
 }
