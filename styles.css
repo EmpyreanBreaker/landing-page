@@ -104,6 +104,7 @@ ul {
 
 .hero__introduction {
     width: 400px;
+    align-self: flex-end;
 }
 
 .hero__main {
@@ -121,12 +122,13 @@ ul {
     height: 300px;
 }
 
-.hero__button {
+.hero__button,
+.registration__button button {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
     border-radius: 10px;
-    width: 100px;
+    width: 120px;
     border: none;
     font-weight: 700;
     padding: 5px;
@@ -168,7 +170,7 @@ ul {
     margin-bottom: 50px;
 }
 
-/** Review Styling */
+/** Quote Styling */
 .quote {
     background-color: #E5E7EB;
 }
@@ -187,5 +189,31 @@ ul {
     text-align: end;
     font-size: 26px;
     color: #1F2937;
-    font-weight: black;
+    font-weight: 700;
+}
+
+/** Registration Styling */
+.registration__banner {
+    margin: 100px 200px 100px 200px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.registration__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px 50px 200px;
+}
+
+.registration__call h2 {
+    color: #F9FAF8;
+}
+
+.registration__call p {
+    color: #E5E7EB;
+}
+
+.registration__button button {
+    border: 2px solid white;
 }
