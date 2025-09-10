@@ -8,7 +8,6 @@ This project demonstrates **HTML & CSS fundamentals**, focusing on layout, typog
 ## 📸 Preview
 
 ![Landing Page Screenshot](./images/preview.png)  
-*(Add a screenshot of your page here — place it in the `images` folder and update the path if needed.)*
 
 ---
 
